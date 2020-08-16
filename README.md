@@ -9,4 +9,5 @@
 --预训练模型nlp_ner.pk保存在data文件
 
 测试模型命令：
+
 --python main.py --train=False
