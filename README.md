@@ -4,7 +4,9 @@
 预训练模型下载地址：https://github.com/google-research/bert
 
 训练模型命令：
-python main.py
+--python main.py
+
+预训练模型nlp_ner.pk保存在data文件
 
 测试模型命令：
-python main.py --train=False
+--python main.py --train=False
