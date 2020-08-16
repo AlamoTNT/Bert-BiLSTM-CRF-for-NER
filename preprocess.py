@@ -144,6 +144,18 @@ class preProcess(object):
                 test_x[i*256:] = x
         return test_x
 
+    def get_lengths(self, X):
+        lengths = []
+        for i in range(len(X)):
+            length = 0
+            for dim in X[i]:
+                if dim != 0:
+                    length += 1
+                else:
+                    break
+            lengths.append(length)
+        return lengths
+
 
 if __name__ == '__main__':
     pass
